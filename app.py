@@ -116,4 +116,4 @@ with layout_left:
     st.dataframe(pd.DataFrame(metrics_data), use_container_width=True, hide_index=True)
     st.info("💡 **Interview Talking Point:** This version uses an API connection to an open-source routing engine (OSRM) to snap coordinates perfectly onto genuine road network vectors.")
 
-with layout_right
+with layout_right:
